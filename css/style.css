@@ -1,0 +1,444 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+.header-nav{
+    font-weight: 700;
+}
+a.nav-link:hover {
+    color: #ca2b1f !important;
+}
+.header-btn .get-free{
+    position: relative;
+    width: 200px;
+    height: 50px;
+    background-color: #ca2b1f;
+    color: #fff;
+    font-weight: 300;
+    z-index: 1;
+}
+.header-btn .get-free:after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #E44239;
+    transition: .25s;
+    
+}
+.header-btn .get-free:hover:after{
+    width: 100%;
+    z-index: -1; 
+    transition: .25s; 
+}
+
+/* nabver end */
+
+
+/* banner secation start */
+
+.banner{
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 128px;
+}
+.banner-text h4{
+    margin: 110px 0 60px 0;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #ec5b53;
+}
+.banner-text h1{
+    font-size: 70px;
+    font-weight: 700;
+    color: #002d5b;
+    line-height: 1.2;
+}
+
+.banner-text p{
+    margin: 60px 0 55px 0;
+    line-height: 30px;
+}
+.banner-btn .btn-1{
+    position: relative;
+    width: 170px;
+    height: 60px;
+    background-color: #ca2b1f;
+    color: #fff;
+    z-index: 1;
+}
+.banner-btn .btn-1:after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #E44239;
+    transition: .25s;
+    
+}
+.banner-btn .btn-1:hover:after{
+    width: 100%;
+    z-index: -1; 
+    transition: .25s; 
+}
+/* btn-1 hover css end */
+
+
+
+.banner-btn .btn-2{
+    position: relative;
+    width: 170px;
+    height: 60px;
+    margin-left: 15px;
+    border: 1px solid #EB5B52;
+    z-index: 1;
+}
+.banner-btn .btn-2:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: #EB5B52;
+    transition: .25s;
+    
+    
+}
+.banner-btn .btn-2:hover:after{
+    height: 100%;
+    z-index: -1;
+    transition: .25s;
+    
+}
+.banner-btn .btn-2:hover{
+    color: #fff;
+}
+
+/* banner secation end */
+
+/* design css start */
+
+.design{
+    padding: 205px 0 114px 0;
+}
+.design-text h3{
+    font-size: 30px;
+    color: #000a2d;
+    font-weight: 700;
+    margin-bottom: 35px;
+    line-height: 1.5;
+}
+.design-text p{
+    line-height: 30px;
+}
+.design-about{
+    margin-left: 18.333333%;
+}
+.design-about h3{
+    font-size: 40px;
+    color: #000a2d;
+    font-weight: 700;
+    margin-bottom: 35px;
+    line-height: 1.5;
+}
+.design-about p{
+    color: #464d65;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.hire{
+    display: flex;
+    justify-content: space-between;
+}
+.hire a{
+    text-decoration: underline;
+    color: #000a2d;
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    /* display: inline-block; */
+}
+.hire i{
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration: double underline;
+    position: relative;
+    bottom: -14px;
+}
+
+/* design css end */
+
+
+/* service section css start */
+.service{
+    background-image: url(../img/shape1.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 71%;
+    padding: 150px 0 50px 0;
+}
+.service-title{
+    padding-bottom: 70px;
+}
+.service-box{
+   text-align: center;
+}
+.single-cat{
+    position: relative;
+    width: 350px;
+    padding: 0 13px 0 13px;
+    transition: all .40s;
+    border-radius: 10px;
+    z-index: 1;
+}
+.icon{
+    margin-top: 50px;
+}
+.icon i{
+    color: #ec5b53;
+    font-size: 50px;
+    background: #fff4f4;
+    margin-bottom: 50px;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50px;
+    transition: all .40s;
+}
+.icon i:hover{
+    background-color: #fff;
+    transition: all .40s;
+}
+.service-text p{
+    margin-top: 34px;
+    padding-bottom: 50px;
+    line-height: 29px;
+}
+
+.single-cat:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    background: #ec5b53;
+    transition: all .60s;
+}
+.single-cat:hover:after{
+    height: 100%;
+    transition: all .60s;
+    border-radius: 10px;
+    z-index: -1;
+}
+.single-cat:hover{
+    color: #fff;
+    border: none;
+}
+/* service section css end */
+
+
+/* service-form section css start */
+
+.all-right{
+    float: right !important;
+}
+
+
+/* service-form section css end */
+
+
+/* contact section css start */
+.contact{
+    background-image: url(../img/section_bg02.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    padding: 130px 0 125px 0;
+}
+.contact-body h2{
+    color: #ec5b53;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.5
+}
+.contact-btn .btn-me{
+    position: relative;
+    font-size: 14px;
+    background: #ec5b53;
+    padding: 16px 60px;
+    float: right;
+    margin-top: 40px;
+    color: #fff;
+    z-index: 1;
+}
+.contact-btn .btn-me:after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #E44239;
+    transition: .30s;
+    
+    
+}
+.contact-btn .btn-me:hover:after{
+    width: 100%;
+    z-index: -1;
+    transition: .30s;
+    
+}
+/* contact section css end */
+
+.together{
+    background-image: url(../img/section_bg04.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 130px 0 125px 0;
+}
+/* together section css end */
+.body-text h3{
+    font-size: 48px;
+    color: #000a2d;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.body-text p{
+    margin-bottom: 40px;
+}
+.contact-wrapper input{
+    background: #fff;
+    height: 60px;
+    width: 100%;
+    padding: 10px 26px;
+    color: #a3a3a3;
+    font-weight: 500;
+    text-transform: capitalize;
+    border-radius: 0px;
+    border: none;
+    margin-bottom: 30px;
+}
+.contact-wrapper textarea{
+    color: #a3a3a3;
+    background: #fff;
+    font-weight: 500;
+    letter-spacing: 2px;
+    height: 160px;
+    width: 100%;
+    padding: 30px 26px;
+    border-radius: 0px;
+    border: none;
+    margin-bottom: 30px
+}
+.contact-wrapper button{
+    background: #ec5b53;
+    width: 100%;
+    height: 60px;
+    padding: 10px 20px;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 0px;
+}
+/* together section css end */
+
+.footer{
+    padding: 40px;
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+.copyright{
+    text-align: center;
+}
+
+
+
+/* gallery section css start */
+.service-form{
+    padding: 145px 0 170px 0;
+}
+.form-text h2{
+    font-size: 48px;
+    color: #000a2d;
+    font-weight: 600;
+}
+
+.gallery .nav{
+    border-bottom: 2px solid rgb(226, 225, 225);
+    float: right;
+    
+}
+.gallery .btn_border{
+   border-bottom: 3px solid rgb(240, 24, 24);
+   
+}
+.btn:focus{
+    box-shadow: none;
+}
+.gallery .btn{
+    font-size: 16px;
+}
+.logo-1{
+    margin-bottom: 30px;
+}
+.logo-2{
+    margin-bottom: 30px;
+}
+/* gallery section css end */
+
+
+/* positive feedback css star */
+
+.feedback{
+    padding: 195px 0 90px 0;
+}
+.arrow-icon{
+    float: right;
+    margin-top: 30px;
+}
+.arrow-icon i{
+    /* margin-right: 30px; */
+    background: #fff;
+    color: red;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 99px;
+}
+.blog-wrapper{
+    width: 350px;
+    border: 1px solid #ddd;
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+.card_area{
+    
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.blog_text p {
+    line-height: 33px;
+    margin-top: 40px;
+    padding-left: 12px;
+}
+
+/* positive feedback css end */
